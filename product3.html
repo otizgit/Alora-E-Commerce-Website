@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alora- Products</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Passions+Conflict&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="to-top">
+        <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="product-hero" id="hero">
+        <header>
+            <div class="logo">
+                <a href="./index.html"><img src="./Images/Logo.png" alt="logo" class="logo-img"></a>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <div class="hamburger ham-two"><i class="fa-solid fa-xmark"></i></div>
+                    <li><a href="./index.html"><p>Home</p><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="./about.html"><p>About Us</p><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="active" href="./product3.html"><p>Products</p><i class="fa-brands fa-shopify"></i></a></li>
+                    <li><a href="./login.html"><p>Login/Register</p> <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                </ul>
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="main-cart">
+                    <h2 class="cart-title">Your Cart</h2>
+                    <div class="cart-content">
+                    </div>
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">$0</div>
+                    </div>
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <i class="fa-solid fa-xmark close-cart"></i>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+    <section id="section" class="product-section" >
+        <div class="product-heading">
+            <h2>Products</h2>
+            <div class="drop-down">
+                <div class="drop-button" id="drop-button">
+                    Sort
+                    <span><i class="fa-solid fa-sort-down"></i></span>
+                </div>
+                <ul class="select" id="select">
+                    <li><a href="./product3.html">Default Sorting</a></li>
+                    <li class="sort-by-rating">Sort By Rating</li>
+                    <li class="sort-by-price">Sort By Price</li>
+                </ul>
+            </div>
+        </div> <hr color="#00b9b9" class="product-line" data-aos="fade-in">
+        <div class="container product-container" data-aos="fade-up">
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n1.jpg" alt="f1">
+                <div class="img-info">
+                    <p class="product-name">Men's Plain-blue Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$33.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n2.jpg" alt="f2">
+                <div class="img-info">
+                    <p class="product-name">Men's Checked Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                    <div class="price">
+                        <p class="product-price">$35.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n3.jpg" alt="f3">
+                <div class="img-info">
+                    <p class="product-name">Men's Plain-white Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$20.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n4.jpg" alt="f4">
+                <div class="img-info">
+                    <p class="product-name">Men's Maple t-shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$25.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n5.jpg" alt="f5">
+                <div class="img-info">
+                    <p class="product-name">Men's Office Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$25.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n6.jpg" alt="f6">
+                <div class="img-info">
+                    <p class="product-name">Men's Classic Shorts</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$40.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n7.jpg" alt="f7">
+                <div class="img-info">
+                    <p class="product-name">Men's Casual Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                    <div class="price">
+                        <p class="product-price">$35.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n8.jpg" alt="f8">
+                <div class="img-info">
+                    <p class="product-name">Unisex t-shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                    <div class="price">
+                        <p class="product-price">$25.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+
+
+    <!------- CONTAINER2  -------->
+
+    <div class="container product-container2" data-aos="fade-up">
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n6.jpg" alt="f6">
+            <div class="img-info">
+                <p class="product-name">Men's Classic Shorts</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+                <div class="price">
+                    <p class="product-price">$40.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n2.jpg" alt="f2">
+            <div class="img-info">
+                <p class="product-name">Men's Checked Shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                <div class="price">
+                    <p class="product-price">$35.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n7.jpg" alt="f7">
+            <div class="img-info">
+                <p class="product-name">Men's Casual Shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                <div class="price">
+                    <p class="product-price">$35.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n8.jpg" alt="f8">
+            <div class="img-info">
+                <p class="product-name">Unisex t-shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                <div class="price">
+                    <p class="product-price">$25.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n4.jpg" alt="f4">
+            <div class="img-info">
+                <p class="product-name">Men's Maple t-shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                <div class="price">
+                    <p class="product-price">$25.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n1.jpg" alt="f1">
+            <div class="img-info">
+                <p class="product-name">Men's Plain-blue Shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                <div class="price">
+                    <p class="product-price">$33.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n3.jpg" alt="f3">
+            <div class="img-info">
+                <p class="product-name">Men's Plain-white Shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                <div class="price">
+                    <p class="product-price">$20.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="col product-col">
+            <img class="product-img" src="./Images/n5.jpg" alt="f5">
+            <div class="img-info">
+                <p class="product-name">Men's Office Shirt</p>
+                <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                <div class="price">
+                    <p class="product-price">$25.00</p>
+                    <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+
+        <!------- CONTAINER3  -------->
+
+        <div class="container product-container3" data-aos="fade-up">
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n6.jpg" alt="f6">
+                <div class="img-info">
+                    <p class="product-name">Men's Classic Shorts</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$40.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n2.jpg" alt="f2">
+                <div class="img-info">
+                    <p class="product-name">Men's Checked Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                    <div class="price">
+                        <p class="product-price">$35.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n7.jpg" alt="f7">
+                <div class="img-info">
+                    <p class="product-name">Men's Casual Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                    <div class="price">
+                        <p class="product-price">$35.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n1.jpg" alt="f1">
+                <div class="img-info">
+                    <p class="product-name">Men's Plain-blue Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$33.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n8.jpg" alt="f8">
+                <div class="img-info">
+                    <p class="product-name">Unisex t-shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i></p>
+                    <div class="price">
+                        <p class="product-price">$25.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n4.jpg" alt="f4">
+                <div class="img-info">
+                    <p class="product-name">Men's Maple t-shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$25.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n5.jpg" alt="f5">
+                <div class="img-info">
+                    <p class="product-name">Men's Office Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$25.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col product-col">
+                <img class="product-img" src="./Images/n3.jpg" alt="f3">
+                <div class="img-info">
+                    <p class="product-name">Men's Plain-white Shirt</p>
+                    <p class="rating"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star-half-stroke"></i> <i class="fa-regular fa-star"></i></p>
+                    <div class="price">
+                        <p class="product-price">$20.00</p>
+                        <p><i class="fa-solid fa-cart-shopping add-cart"></i></p>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+
+
+
+
+    <div class="product-btn">
+        <a href="./product.html"><p>1</p></a>
+        <a href="./product2.html"><p>2</p></a>
+        <a href="./product3.html"><p class="product-active">3</p></a>
+    </div>
+
+    <marquee class="product-marquee" loop="-2" scrollamount="8" width="100%">Today's Limited Offer: 10% discount on all sneakers and wristwatches, available till 12:00AM *** Today's Limited Offer: 10% discount on all sneakers and wristwatches, available till 12:00AM</marquee>
+
+    <div class="newsletter about-newsletter">
+        <div class="newsletter-content" data-aos="slide-right">
+            <h2 class="newsletter-text">Sign Up To Our Newsletter Today</h2>
+            <p class="newsletter-sub">Recieve emails on the latest deals and hottest discount products</p>
+        </div>
+        <form class="newsletter-email" data-aos="slide-left">
+            <div class="input-div">
+                <input class="input" type="email" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="sign-up">Sign-Up</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo bottom-logo">
+                <a href="./index.html"><img src="./Images/Logo.png" alt="logo" class="logo-img"></a>
+                <h2>Quality Shopping At Your Fingertips</h2>
+                <div class="hero-toggle bottom-hero-toggle">
+                    <div class="hero-tog first-tog">Easy</div>
+                    <div class="hero-tog second-tog">Affordable</div>
+                    <div class="hero-tog third-tog">Reliable</div>
+                </div>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="bottom-left">
+                    <h2>About</h2>
+                    <p><a href="./about.html">About Us</a></p>
+                    <p>Coupons</p>
+                    <p>Our Customer Service</p>
+                    <p>Return Policy</p>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div class="bottom-right">
+                    <h2>My Account</h2>
+                    <p><a href="./login.html">Sign In</a></p>
+                    <p>View Cart</p>
+                    <p>Track My Order</p>
+                    <p>View Wishlist</p>
+                    <p>Help</p>
+                </div>
+            </div>
+            <div class="app">
+                <h2>Go Mobile</h2>
+                <p>Download our app for Android and IOS mobile phones</p>
+                <div class="download-links">
+                    <img src="./Images/play-store.png" alt="play-store">
+                    <img src="./Images/app-store.png" alt="app-store">
+                </div>
+                <div class="payments">
+                    <img src="./Images/pay.png" alt="pay">
+                </div>
+            </div>
+        </div> <hr color="#00b9b9" class="bottom-hr">
+        <div class="copyright">
+            Copyright 2022- Designed By Emmanuel Okoh
+        </div>
+    </footer>
+    <div class="intro">
+        <div class="intro-text">
+            <div class="hide">
+                <span class="intro-image"><img src="./Images/Logo.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+    <div class="slider"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script src="./cart.js"></script>
+    <script src="./product.js"></script>
+</body>
+</html>
