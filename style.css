@@ -2016,9 +2016,10 @@ footer p {
 .main-cart {
     position: fixed;
     top: 0;
+    bottom: 0;
     right: -100%;
     width: 360px;
-    height: fit-content;
+    overflow-y: scroll;
     background: white;
     padding: 20px;
     transition: right .7s ease;
