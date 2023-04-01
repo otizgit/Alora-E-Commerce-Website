@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Maroon Puma Printed t-shirt",
-    "img": "/Images/product-1.jpg",
+    "img": "./Images/product-1.jpg",
     "rating": "4.5",
     "price": "17.00",
     "section": "hot deals",
@@ -11,7 +11,7 @@
   {
     "id": 2,
     "name": "HRX Running Shoes",
-    "img": "/Images/product-2.jpg",
+    "img": "./Images/product-2.jpg",
     "rating": "4.1",
     "price": "39.00",
     "section": "hot deals",
@@ -20,7 +20,7 @@
   {
     "id": 3,
     "name": "Yemlays Gray Sweatpants",
-    "img": "/Images/product-3.jpg",
+    "img": "./Images/product-3.jpg",
     "rating": "4.2",
     "price": "20.40",
     "section": "hot deals",
@@ -29,7 +29,7 @@
   {
     "id": 4,
     "name": "Puma Blue t-shirt",
-    "img": "/Images/product-4.jpg",
+    "img": "./Images/product-4.jpg",
     "rating": "5.0",
     "price": "16.50",
     "section": "new arrivals",
@@ -38,7 +38,7 @@
   {
     "id": 5,
     "name": "Men's Breathable Sneakers",
-    "img": "/Images/product-5.jpg",
+    "img": "./Images/product-5.jpg",
     "rating": "5.0",
     "price": "70.00",
     "section": "hot deals",
@@ -47,7 +47,7 @@
   {
     "id": 6,
     "name": "Puma Black t-shirt",
-    "img": "/Images/product-6.jpg",
+    "img": "./Images/product-6.jpg",
     "rating": "3.7",
     "price": "20.40",
     "section": "new arrivals",
@@ -56,7 +56,7 @@
   {
     "id": 7,
     "name": "HRX Stockings",
-    "img": "/Images/product-7.jpg",
+    "img": "./Images/product-7.jpg",
     "rating": "4.3",
     "price": "15.60",
     "section": "hot deals",
@@ -65,7 +65,7 @@
   {
     "id": 8,
     "name": "Black Rolex Wristwatch",
-    "img": "/Images/product-8.jpg",
+    "img": "./Images/product-8.jpg",
     "rating": "4.5",
     "price": "90.00",
     "section": "hot deals",
@@ -74,7 +74,7 @@
   {
     "id": 9,
     "name": "Black Roadster Wristwatch",
-    "img": "/Images/product-9.jpg",
+    "img": "./Images/product-9.jpg",
     "rating": "4.7",
     "price": "95.00",
     "section": "new arrivals",
@@ -83,7 +83,7 @@
   {
     "id": 10,
     "name": "HRX Breathable Sneakers",
-    "img": "/Images/product-10.jpg",
+    "img": "./Images/product-10.jpg",
     "rating": "4.1",
     "price": "50.00",
     "section": "new arrivals",
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Roadster Casual Shoes",
-    "img": "/Images/product-11.jpg",
+    "img": "./Images/product-11.jpg",
     "rating": "4.4",
     "price": "34.50",
     "section": "new arrivals",
@@ -101,7 +101,7 @@
   {
     "id": 12,
     "name": "Nike Trendy Joggers",
-    "img": "/Images/product-12.jpg",
+    "img": "./Images/product-12.jpg",
     "rating": "5.0",
     "price": "44.20",
     "section": "new arrivals",
@@ -110,7 +110,7 @@
   {
     "id": 13,
     "name": "Men's Vintage t-shirt",
-    "img": "/Images/f1.jpg",
+    "img": "./Images/f1.jpg",
     "rating": "5.0",
     "price": "14.50",
     "section": "none",
@@ -119,7 +119,7 @@
   {
     "id": 14,
     "name": "Men's Leaf-printed t-shirt",
-    "img": "/Images/f2.jpg",
+    "img": "./Images/f2.jpg",
     "rating": "4.6",
     "price": "12.30",
     "section": "none",
@@ -128,7 +128,7 @@
   {
     "id": 15,
     "name": "Men's Vintage Brown t-shirt",
-    "img": "/Images/f3.jpg",
+    "img": "./Images/f3.jpg",
     "rating": "3.6",
     "price": "10.00",
     "section": "none",
@@ -137,7 +137,7 @@
   {
     "id": 16,
     "name": "Men's White Vintage t-shirt",
-    "img": "/Images/f4.jpg",
+    "img": "./Images/f4.jpg",
     "rating": "4.1",
     "price": "16.30",
     "section": "none",
@@ -146,7 +146,7 @@
   {
     "id": 17,
     "name": "Men's Flower Printed t-shirt",
-    "img": "/Images/f5.jpg",
+    "img": "./Images/f5.jpg",
     "rating": "4.5",
     "price": "14.40",
     "section": "none",
@@ -155,7 +155,7 @@
   {
     "id": 18,
     "name": "Men's Brown Jacket",
-    "img": "/Images/f6.jpg",
+    "img": "./Images/f6.jpg",
     "rating": "5.0",
     "price": "12.90",
     "section": "none",
@@ -164,7 +164,7 @@
   {
     "id": 19,
     "name": "Unisex Leisure Pants",
-    "img": "/Images/f7.jpg",
+    "img": "./Images/f7.jpg",
     "rating": "4.8",
     "price": "18.50",
     "section": "none",
@@ -173,7 +173,7 @@
   {
     "id": 20,
     "name": "Women's Loose Blouse",
-    "img": "/Images/f8.jpg",
+    "img": "./Images/f8.jpg",
     "rating": "4.6",
     "price": "11.40",
     "section": "none",
@@ -182,7 +182,7 @@
   {
     "id": 21,
     "name": "Men's Plain-blue Shirt",
-    "img": "/Images/n1.jpg",
+    "img": "./Images/n1.jpg",
     "rating": "3.5",
     "price": "12.80",
     "section": "none",
@@ -191,7 +191,7 @@
   {
     "id": 22,
     "name": "Men's Checked Shirt",
-    "img": "/Images/n2.jpg",
+    "img": "./Images/n2.jpg",
     "rating": "4.5",
     "price": "10.30",
     "section": "none",
@@ -200,7 +200,7 @@
   {
     "id": 23,
     "name": "Men's Plain-white Shirt",
-    "img": "/Images/n3.jpg",
+    "img": "./Images/n3.jpg",
     "rating": "3.4",
     "price": "11.50",
     "section": "none",
@@ -209,7 +209,7 @@
   {
     "id": 24,
     "name": "Men's Maple t-shirt",
-    "img": "/Images/n4.jpg",
+    "img": "./Images/n4.jpg",
     "rating": "4.3",
     "price": "15.50",
     "section": "none",
@@ -218,7 +218,7 @@
   {
     "id": 25,
     "name": "Men's Office Shirt",
-    "img": "/Images/n5.jpg",
+    "img": "./Images/n5.jpg",
     "rating": "3.9",
     "price": "12.40",
     "section": "none",
@@ -227,7 +227,7 @@
   {
     "id": 26,
     "name": "Men's Classic Shorts",
-    "img": "/Images/n6.jpg",
+    "img": "./Images/n6.jpg",
     "rating": "5.0",
     "price": "20.50",
     "section": "none",
@@ -236,7 +236,7 @@
   {
     "id": 27,
     "name": "Men's Casual Shirt",
-    "img": "/Images/n7.jpg",
+    "img": "./Images/n7.jpg",
     "rating": "4.3",
     "price": "14.90",
     "section": "none",
@@ -245,7 +245,7 @@
   {
     "id": 28,
     "name": "Unisex t-shirt",
-    "img": "/Images/n8.jpg",
+    "img": "./Images/n8.jpg",
     "rating": "4.2",
     "price": "14.80",
     "section": "none",
