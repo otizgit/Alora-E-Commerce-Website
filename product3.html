@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alora- Login/Register</title>
+    <title>Alora- Products</title>
     <link rel="icon" type="jpg/png" sizes="32x32" href="/Images/cart-shopping.png">
     <link rel="stylesheet" href="/style.css">
     <script src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script>
@@ -14,18 +14,18 @@
     <div class="to-top">
         <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
     </div>
-    <div class="hero login-hero" id="hero">
+    <div class="product-hero" id="hero">
         <header>
             <div class="logo">
                 <a href="/index.html"><img src="/Images/Logo.png" alt="logo" class="logo-img"></a>
             </div>
             <nav class="top-nav">
                 <ul>
-                    <li><a href="/index.html"><p>Home</p><i class="fa-solid fa-house"></i></a></li>
-                    <li><a href="/Pages/about.html"><p>About Us</p><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                    <li><a href="/Pages/product.html"><p>Products</p><i class="fa-brands fa-shopify"></i></a></li>
-                    <li><a class="active" href="/Pages/login.html"><p>Login/Register</p> <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
-                </ul>
+                    <li><a href="./index.html"><p>Home</p><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="./about.html"><p>About Us</p><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="active" href="./product.html"><p>Products</p><i class="fa-brands fa-shopify"></i></a></li>
+                    <li><a href="./login.html"><p>Login/Register</p> <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                </ul> 
                 <div class="cart">
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
@@ -54,30 +54,33 @@
                   </div>
             </nav>
         </header>
-
-        <div class="login-container">
-            <div class="log">
-                <div class="form-btn">
-                    <span class="indicate indicate-login">Login</span>
-                    <span class="indicate indicate-reg">Register</span>
-                </div>
-                <form class="login-form">
-                    <input type="text" placeholder="Username" required>
-                    <input type="password" placeholder="Password" required>
-                    <button type="submit" class="login-btn">Login</button>
-                    <p><a href="#">Forgot Password</a></p>
-                </form>
-            </div>
-            <div class="log">
-                <form class="reg-form">
-                    <input type="text" placeholder="Username" required>
-                    <input type="email" placeholder="Email" required>
-                    <input type="password" placeholder="Password" required>
-                    <button type="submit" class="login-btn reg-btn">Register</button>
-                </form>
-            </div>
-        </div>
     </div>
+
+    <section id="section" class="product-section" >
+        <div class="product-heading">
+            <h2>Products</h2>
+            <div class="drop-down">
+                <div class="drop-button" id="drop-button">
+                    Sort
+                    <span><i class="fa-solid fa-sort-down"></i></span>
+                </div>
+                <ul class="select" id="select">
+                    <li id="select-li">Default Sorting</li>
+                    <li id="select-li">Sort By Rating</li>
+                    <li id="select-li">Sort By Price</li>
+                </ul>
+            </div>
+        </div> <hr color="#00b9b9" class="product-line" data-aos="fade-in">
+        <div class="container product-container" data-aos="fade-up"></div>    
+    </section>
+
+    <div class="product-btn">
+        <a href="./product.html"><p id="one">1</p></a>
+        <a href="./product2.html"><p id="two">2</p></a>
+        <a href="./product3.html"><p id="three" class="product-active">3</p></a>
+    </div>
+
+    <marquee class="product-marquee" loop="-2" scrollamount="8" width="100%">Today's Limited Offer: 10% discount on all sneakers and wristwatches, available till 12:00AM *** Today's Limited Offer: 10% discount on all sneakers and wristwatches, available till 12:00AM</marquee>
 
     <div class="newsletter about-newsletter">
         <div class="newsletter-content" data-aos="slide-right">
@@ -113,7 +116,7 @@
             <div class="bottom-nav">
                 <div class="bottom-left">
                     <h2>About</h2>
-                    <p><a href="/Pages/about.html">About Us</a></p>
+                    <p><a href="./about.html">About Us</a></p>
                     <p>Coupons</p>
                     <p>Our Customer Service</p>
                     <p>Return Policy</p>
@@ -121,7 +124,7 @@
                 </div>
                 <div class="bottom-right">
                     <h2>My Account</h2>
-                    <p><a href="/Pages/login.html">Sign In</a></p>
+                    <p><a href="./login.html">Sign In</a></p>
                     <p class="view-cart">View Cart</p>
                     <p>Track My Order</p>
                     <p>View Wishlist</p>
@@ -144,6 +147,7 @@
             &#169; Designed By Emmanuel Okoh - <span></span>
         </div>
     </footer>
+
     <div class="intro">
         <div class="intro-text">
             <div class="hide">
@@ -155,7 +159,9 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="/Js/app.js"></script>
-    <script src="/Js/login.js"></script>
+    <script src="./app.js"></script>
+    <script type="module" src="./product.js"></script>
+    <script src="./img.js"></script>
+    <script type="module" src="./cart.js"></script>
 </body>
 </html>

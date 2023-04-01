@@ -93,5 +93,5 @@ xhttp.onreadystatechange = function () {
     cartDetails();
   }
 };
-xhttp.open("GET", "/data.json", true);
+xhttp.open("GET", "./data.json", true);
 xhttp.send();
