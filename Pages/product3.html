@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alora- Products</title>
+    <link rel="icon" type="jpg/png" sizes="32x32" href="/Images/cart-shopping.png">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/96a70be8ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div class="to-top">
+        <a href="#hero"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="product-hero" id="hero">
+        <header>
+            <div class="logo">
+                <a href="/index.html"><img src="/Images/Logo.png" alt="logo" class="logo-img"></a>
+            </div>
+            <nav class="top-nav">
+                <ul>
+                    <li><a href="/index.html"><p>Home</p><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="/Pages/about.html"><p>About Us</p><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a class="active" href="/Pages/product.html"><p>Products</p><i class="fa-brands fa-shopify"></i></a></li>
+                    <li><a href="/Pages/login.html"><p>Login/Register</p> <i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+                </ul> 
+                <div class="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="main-cart">
+                    <div class="cart-header">
+                      <div class="cart-title-container">
+                        <h2 class="cart-title">Your Cart</h2>
+                      </div>
+                      <i class="fa-solid fa-xmark close-cart"></i>
+                    </div>
+                    <div class="empty-cart">
+                        <img src="/Images/thinking-face.png" alt="thinking-face">
+                        <p>Your cart is empty.</p>
+                    </div>
+                    <div class="cart-content"></div>
+                    <div class="product-info-box">
+                      <div class="btn-container"></div>
+                      <div class="total">
+                        <div class="total-title"></div>
+                        <div class="total-price"></div>
+                      </div>
+                    </div>
+                  </div>
+            </nav>
+        </header>
+    </div>
+
+    <section id="section" class="product-section" >
+        <div class="product-heading">
+            <h2>Products</h2>
+            <div class="drop-down">
+                <div class="drop-button" id="drop-button">
+                    Sort
+                    <span><i class="fa-solid fa-sort-down"></i></span>
+                </div>
+                <ul class="select" id="select">
+                    <li id="select-li">Default Sorting</li>
+                    <li id="select-li">Sort By Rating</li>
+                    <li id="select-li">Sort By Price</li>
+                </ul>
+            </div>
+        </div> <hr color="#00b9b9" class="product-line" data-aos="fade-in">
+        <div class="container product-container" data-aos="fade-up"></div>    
+    </section>
+
+    <div class="product-btn">
+        <a href="/Pages/product.html"><p id="one">1</p></a>
+        <a href="/Pages/product2.html"><p id="two">2</p></a>
+        <a href="/Pages/product3.html"><p id="three" class="product-active">3</p></a>
+    </div>
+
+    <marquee class="product-marquee" loop="-2" scrollamount="8" width="100%">Today's Limited Offer: 10% discount on all sneakers and wristwatches, available till 12:00AM *** Today's Limited Offer: 10% discount on all sneakers and wristwatches, available till 12:00AM</marquee>
+
+    <div class="newsletter about-newsletter">
+        <div class="newsletter-content" data-aos="slide-right">
+            <h2 class="newsletter-text">Sign Up To Our Newsletter Today</h2>
+            <p class="newsletter-sub">Recieve emails on the latest deals and hottest discount products</p>
+        </div>
+        <form class="newsletter-email" data-aos="slide-left">
+            <div class="input-div">
+                <input class="input" type="email" placeholder="Enter your email" required>
+            </div>
+            <button type="submit" class="sign-up">Sign-Up</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo bottom-logo">
+                <a href="/index.html"><img src="/Images/Logo.png" alt="logo" class="logo-img"></a>
+                <h2>Quality Shopping At Your Fingertips</h2>
+                <div class="hero-toggle bottom-hero-toggle">
+                    <div class="hero-tog first-tog">Easy</div>
+                    <div class="hero-tog second-tog">Affordable</div>
+                    <div class="hero-tog third-tog">Reliable</div>
+                </div>
+                <div class="socials">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="bottom-nav">
+                <div class="bottom-left">
+                    <h2>About</h2>
+                    <p><a href="/Pages/about.html">About Us</a></p>
+                    <p>Coupons</p>
+                    <p>Our Customer Service</p>
+                    <p>Return Policy</p>
+                    <p>Terms & Conditions</p>
+                </div>
+                <div class="bottom-right">
+                    <h2>My Account</h2>
+                    <p><a href="/Pages/login.html">Sign In</a></p>
+                    <p class="view-cart">View Cart</p>
+                    <p>Track My Order</p>
+                    <p>View Wishlist</p>
+                    <p>Help</p>
+                </div>
+            </div>
+            <div class="app">
+                <h2>Go Mobile</h2>
+                <p>Download our app for Android and IOS mobile phones</p>
+                <div class="download-links">
+                    <img src="/Images/play-store.png" alt="play-store">
+                    <img src="/Images/app-store.png" alt="app-store">
+                </div>
+                <div class="payments">
+                    <img src="/Images/pay.png" alt="pay">
+                </div>
+            </div>
+        </div> <hr color="#00b9b9" class="bottom-hr">
+        <div class="copyright">
+            &#169; Designed By Emmanuel Okoh - <span></span>
+        </div>
+    </footer>
+
+    <div class="intro">
+        <div class="intro-text">
+            <div class="hide">
+                <span class="intro-image"><img src="/Images/Logo.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+    <div class="slider"></div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="/Js/app.js"></script>
+    <script type="module" src="/Js/product.js"></script>
+    <script src="/Js/img.js"></script>
+    <script type="module" src="/Js/cart.js"></script>
+</body>
+</html>
