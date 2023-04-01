@@ -813,7 +813,7 @@ footer p {
     padding-right: 25px;
   }
   .hero-toggle div {
-    font-size: var(--clamp15);
+    font-size: 12px;  
   }
   .hero-toggle {
     margin-bottom: 25px;
@@ -870,7 +870,7 @@ footer p {
     font-size: var(--clamp15);
   }
   .hero-content h1 {
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: var(--margin20);
   }
   .container,
@@ -1014,7 +1014,7 @@ footer p {
 
 @media (max-width: 281px) {
   .hero-content h1 {
-    font-size: var(--clamp35);
+    font-size: 30px;
   }
   .hero-toggle div {
     font-size: clamp(12px, .8vw, 40px);
