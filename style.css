@@ -415,7 +415,7 @@ section {
 }
 
 .col .add-cart {
-  font-size: var(--clamp23);
+  font-size: var(--clamp20);
   transition: 0.3s ease;
 }
 .col .add-cart:hover {
@@ -1787,7 +1787,7 @@ footer p {
 
 .cart-product-title {
   text-transform: uppercase;
-  font-size: var(--clamp15);
+  font-size: clamp(14px, 1vw, 30px);
   font-weight: 800;
 }
 
@@ -1823,7 +1823,7 @@ footer p {
 }
 .cart-box {
   border-bottom: 2px solid var(--primaryTeal);
-  padding-block: clamp(10px, 1vw, 20px);
+  padding-block: clamp(3px, .3vw, 20px);
 }
 
 .cart-remove {

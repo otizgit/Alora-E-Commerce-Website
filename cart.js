@@ -65,7 +65,7 @@ export default function cartDetails() {
         "Thank you for buying these product(s), your order is being processed."
       );
       btnContainer.innerHTML = ``;
-      emptyCart.innerHTML = `<img src="/Images/thinking-face.png" alt="">
+      emptyCart.innerHTML = `<img src="./Images/thinking-face.png" alt="">
       <p>Your cart is empty.</p>`;
       totalTitle.innerText = "";
       totalPrice.innerText = "";
@@ -107,7 +107,7 @@ export default function cartDetails() {
       updateTotal();
       if (cartItems.innerHTML === "") {
         btnContainer.innerHTML = ``;
-        emptyCart.innerHTML = `<img src="/Images/thinking-face.png" alt="">
+        emptyCart.innerHTML = `<img src="./Images/thinking-face.png" alt="">
         <p>Your cart is empty.</p>`;
         totalTitle.innerText = "";
         totalPrice.innerText = "";
