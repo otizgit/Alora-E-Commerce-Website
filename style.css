@@ -1790,6 +1790,13 @@ footer p {
   }
 }
 
+
+@media (max-width: 700px) {
+  .product-container {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (min-width: 2000px) {
   .product-container {
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -1997,7 +2004,7 @@ footer p {
     font-size: 15px;
   }
   .empty-cart img {
-    width: 100px;
+    width: 70px;
   }
 }
 
