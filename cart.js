@@ -62,7 +62,7 @@ export default function cartDetails() {
       }
       updateTotal();
       alert(
-        "Thank you for buying these product(s), your order is being processed."
+        "Thank you for shopping with us, your order is being processed."
       );
       btnContainer.innerHTML = ``;
       emptyCart.innerHTML = `<img src="./Images/thinking-face.png" alt="">
