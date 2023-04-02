@@ -153,10 +153,10 @@ header {
 
 .top-nav ul li a {
   margin-left: var(--marginLeft);
-  text-decoration: none;
   color: white;
   font-weight: 600;
-  font-size: var(--clamp15);
+  font-size: clamp(14px, 1vw, 30px);
+  font-style: italic;
   position: relative;
   transition: color 0.5s ease;
 }
@@ -430,6 +430,7 @@ section {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 5px;
+  font-style: italic;
 }
 
 .view {
@@ -1834,7 +1835,7 @@ footer p {
   margin-top: var(--margin30);
 }
 .empty-cart img {
-  width: clamp(110px, 8vw, 200px);
+  width: clamp(100px, 6vw, 200px);
   margin-inline: auto;
   margin-bottom: var(--margin10);
 }
