@@ -650,6 +650,7 @@ article div img {
   display: flex;
   justify-content: space-around;
   margin-bottom: clamp(80px, 4vw, 160px);
+  border-radius: 20px;
 }
 
 .partners img {
